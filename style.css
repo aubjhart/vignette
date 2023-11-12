@@ -1,0 +1,89 @@
+body {
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: #261217;
+    color: #CC5EA2;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-family: roc-grotesk-condensed, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.hero {
+    background-color: #261217;
+    color: #F1E5E8;
+}
+
+h1 {
+    font-family: study, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 80pt;
+}
+
+p {
+    font-family: roc-grotesk-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32pt; 
+}
+
+
+.intro {
+    background-color: #CC5EA2;
+    color: #261217;
+}
+
+h2 {
+    font-family: study, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 72pt;
+}
+
+.process {
+    background-color: #F1E5E8;
+    color: #261217;
+}
+
+h3 {
+    font-family: roc-grotesk-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+
+.research {
+    background-color: #D3E197;
+    color: #261217;
+}
+
+.deliverables {
+    background-color: white;
+    color: #261217; 
+}
+
+.summary {
+    background-color: #CC5EA2;
+    color: #261217;
+}
+
+button {
+    background-color: #261217;
+    color: #D3E197;
+}
+
+.footer {
+    background-color: #261217;
+    color: #F1E5E8;
+}
+
