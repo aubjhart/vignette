@@ -6,6 +6,38 @@ body {
 .nav {
     background-color: #261217;
     color: #CC5EA2;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.nav--logo img {
+    width: 100%;
+}
+
+.nav--right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.nav--left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
 }
 
 ul {
@@ -61,31 +93,207 @@ h3 {
     font-weight: 400;
     font-style: normal;
     font-size: 48pt; 
+    margin: 0;
+    padding: 0;
 }
 
 
 .research {
     background-color: #D3E197;
     color: #261217;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 150px ;
+    border-top: #261217;
+    border-style: solid;
+    border-width: 1px;
 }
+
+.research h1 {
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+.research--container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.research--headline {
+    padding-left: 200px;
+    padding-top: 00px;
+}
+
+.research--images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.research--images img {
+    width: 48%;
+}
+
+.research--copy {
+    padding-left: 200px;
+    width: 60%;
+    padding-top: 75px;
+}
+
+
 
 .deliverables {
     background-color: white;
     color: #261217; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: #261217;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+}
+
+.deliverables--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    padding: 200px;
+}
+
+.deliverables--columnA {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 48%;
+}
+
+.deliverables--columnB {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 48%;
+}
+
+.deliverables--columnB h1{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.deliverables--columnB p{
+    padding-top: 150px;
+    width: 60%;
+}
+
+.deliverables--image__a {
+    width: 100%;
+    padding-bottom: 75px;
+}
+
+.deliverables--image__b {
+    width: 75%;   
+}
+
+.deliverables--image__c {
+    width: 75%;
 }
 
 .summary {
     background-color: #CC5EA2;
     color: #261217;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: #261217;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+}
+
+.summary--content {
+    padding: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    width: 50%;
 }
 
 button {
     background-color: #261217;
+    border-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+
+button p{
     color: #D3E197;
+    font-family: roc-grotesk-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24pt;
+    padding: 5px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+button:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color:#D3E197;
+}
+
+button:hover p {
+    font-weight: 300;
 }
 
 .footer {
     background-color: #261217;
     color: #F1E5E8;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+}
+
+.footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.footer--links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer--links li {
+    padding: 15px;
+}
+
+
+.footer--note li {
+    font-family: roc-grotesk-condensed, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16pt; 
 }
 
