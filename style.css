@@ -10,6 +10,7 @@ body {
     width: 100%;
     align-items: center;
     margin: 0;
+    height: 100px;
 }
 
 .nav ul{
@@ -20,10 +21,17 @@ body {
     width: 100%;
     padding-right: 2%;
     padding-left: 2%;
+
+}
+
+.nav li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav--logo img {
-    width: 100%;
+    width: 40%;
 }
 
 .nav--right {
@@ -297,3 +305,6 @@ button:hover p {
     font-size: 16pt; 
 }
 
+.footer--image img {
+    width: 40%;
+}
