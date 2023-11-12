@@ -16,6 +16,7 @@ li {
     font-family: roc-grotesk-condensed, sans-serif;
     font-weight: 500;
     font-style: normal;
+    font-size: 16pt;
 }
 
 .hero {
@@ -27,14 +28,14 @@ h1 {
     font-family: study, serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 80pt;
+    font-size: 64pt;
 }
 
 p {
     font-family: roc-grotesk-condensed, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
-    font-size: 32pt; 
+    font-size: 24pt; 
 }
 
 
@@ -47,7 +48,7 @@ h2 {
     font-family: study, serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 72pt;
+    font-size: 48pt;
 }
 
 .process {
@@ -58,7 +59,8 @@ h2 {
 h3 {
     font-family: roc-grotesk-condensed, sans-serif;
     font-weight: 400;
-    font-style: normal; 
+    font-style: normal;
+    font-size: 48pt; 
 }
 
 
