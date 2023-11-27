@@ -169,11 +169,13 @@ ul {
     list-style: none;
 }
 
-li {
+li a {
     font-family: roc-grotesk-condensed, sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 16pt;
+    text-decoration: none;
+    color: #CC5EA2;
 }
 
 .hero {
@@ -1067,22 +1069,22 @@ button {
     background-color: #261217;
     border-style: none;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 2px;
     margin-top: 15px;
 }
 
-button p{
+button a {
     color: #D3E197;
     font-family: roc-grotesk-condensed, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 24pt;
-    padding: 5px;
-    padding-bottom: 0;
+    padding: 0px;
     margin: 0;
+    text-decoration: none;
 }
 
 button:hover {
@@ -1120,8 +1122,9 @@ button:hover p {
     justify-content: space-between;
 }
 
-.footer--links li {
+.footer--links li a{
     padding: 15px;
+    color: #F1E5E8;
 }
 
 
